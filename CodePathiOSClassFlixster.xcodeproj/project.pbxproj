@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B81206227D46BEA0095D5DF /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B81206127D46BEA0095D5DF /* MovieDetailsViewController.swift */; };
 		0BCDA44127CC4EE30076A987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCDA44027CC4EE30076A987 /* AppDelegate.swift */; };
 		0BCDA44327CC4EE30076A987 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCDA44227CC4EE30076A987 /* SceneDelegate.swift */; };
 		0BCDA44527CC4EE30076A987 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCDA44427CC4EE30076A987 /* MoviesViewController.swift */; };
 		0BCDA44827CC4EE30076A987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCDA44627CC4EE30076A987 /* Main.storyboard */; };
 		0BCDA44A27CC4EE60076A987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCDA44927CC4EE60076A987 /* Assets.xcassets */; };
 		0BCDA44D27CC4EE60076A987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCDA44B27CC4EE60076A987 /* LaunchScreen.storyboard */; };
-		0BCDA45827CC4EE70076A987 /* CodePathiOSClassAssignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCDA45727CC4EE70076A987 /* CodePathiOSClassAssignment1Tests.swift */; };
+		0BCDA45827CC4EE70076A987 /* CodePathiOSClassFlixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCDA45727CC4EE70076A987 /* CodePathiOSClassFlixsterTests.swift */; };
 		0BCDA46227CC4EE70076A987 /* CodePathiOSClassAssignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCDA46127CC4EE70076A987 /* CodePathiOSClassAssignment1UITests.swift */; };
 		0BCDA46427CC4EE70076A987 /* CodePathiOSClassAssignment1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCDA46327CC4EE70076A987 /* CodePathiOSClassAssignment1UITestsLaunchTests.swift */; };
 		0BCDA47727CC9DC10076A987 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCDA47627CC9DC10076A987 /* MovieCell.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B81206127D46BEA0095D5DF /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		0BCDA43D27CC4EE30076A987 /* CodePathiOSClassAssignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodePathiOSClassAssignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCDA44027CC4EE30076A987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BCDA44227CC4EE30076A987 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		0BCDA44C27CC4EE60076A987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BCDA44E27CC4EE60076A987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BCDA45327CC4EE70076A987 /* CodePathiOSClassAssignment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodePathiOSClassAssignment1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BCDA45727CC4EE70076A987 /* CodePathiOSClassAssignment1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePathiOSClassAssignment1Tests.swift; sourceTree = "<group>"; };
+		0BCDA45727CC4EE70076A987 /* CodePathiOSClassFlixsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePathiOSClassFlixsterTests.swift; sourceTree = "<group>"; };
 		0BCDA45D27CC4EE70076A987 /* CodePathiOSClassAssignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodePathiOSClassAssignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCDA46127CC4EE70076A987 /* CodePathiOSClassAssignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePathiOSClassAssignment1UITests.swift; sourceTree = "<group>"; };
 		0BCDA46327CC4EE70076A987 /* CodePathiOSClassAssignment1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePathiOSClassAssignment1UITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -98,9 +100,9 @@
 		0BCDA43427CC4EE30076A987 = {
 			isa = PBXGroup;
 			children = (
-				0BCDA43F27CC4EE30076A987 /* CodePathiOSClassAssignment1 */,
-				0BCDA45627CC4EE70076A987 /* CodePathiOSClassAssignment1Tests */,
-				0BCDA46027CC4EE70076A987 /* CodePathiOSClassAssignment1UITests */,
+				0BCDA43F27CC4EE30076A987 /* CodePathiOSClassFlixster */,
+				0BCDA45627CC4EE70076A987 /* CodePathiOSClassFlixsterTests */,
+				0BCDA46027CC4EE70076A987 /* CodePathiOSClassFlixsterUITests */,
 				0BCDA43E27CC4EE30076A987 /* Products */,
 				1A5C2FCC30531D4934061D20 /* Pods */,
 				B4E43B70A3898419B24C697C /* Frameworks */,
@@ -117,36 +119,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BCDA43F27CC4EE30076A987 /* CodePathiOSClassAssignment1 */ = {
+		0BCDA43F27CC4EE30076A987 /* CodePathiOSClassFlixster */ = {
 			isa = PBXGroup;
 			children = (
 				0BCDA44027CC4EE30076A987 /* AppDelegate.swift */,
 				0BCDA44227CC4EE30076A987 /* SceneDelegate.swift */,
 				0BCDA44427CC4EE30076A987 /* MoviesViewController.swift */,
 				0BCDA44627CC4EE30076A987 /* Main.storyboard */,
+				0B81206127D46BEA0095D5DF /* MovieDetailsViewController.swift */,
 				0BCDA47627CC9DC10076A987 /* MovieCell.swift */,
 				0BCDA44927CC4EE60076A987 /* Assets.xcassets */,
 				0BCDA44B27CC4EE60076A987 /* LaunchScreen.storyboard */,
 				0BCDA44E27CC4EE60076A987 /* Info.plist */,
 			);
-			path = CodePathiOSClassAssignment1;
+			path = CodePathiOSClassFlixster;
 			sourceTree = "<group>";
 		};
-		0BCDA45627CC4EE70076A987 /* CodePathiOSClassAssignment1Tests */ = {
+		0BCDA45627CC4EE70076A987 /* CodePathiOSClassFlixsterTests */ = {
 			isa = PBXGroup;
 			children = (
-				0BCDA45727CC4EE70076A987 /* CodePathiOSClassAssignment1Tests.swift */,
+				0BCDA45727CC4EE70076A987 /* CodePathiOSClassFlixsterTests.swift */,
 			);
-			path = CodePathiOSClassAssignment1Tests;
+			path = CodePathiOSClassFlixsterTests;
 			sourceTree = "<group>";
 		};
-		0BCDA46027CC4EE70076A987 /* CodePathiOSClassAssignment1UITests */ = {
+		0BCDA46027CC4EE70076A987 /* CodePathiOSClassFlixsterUITests */ = {
 			isa = PBXGroup;
 			children = (
 				0BCDA46127CC4EE70076A987 /* CodePathiOSClassAssignment1UITests.swift */,
 				0BCDA46327CC4EE70076A987 /* CodePathiOSClassAssignment1UITestsLaunchTests.swift */,
 			);
-			path = CodePathiOSClassAssignment1UITests;
+			path = CodePathiOSClassFlixsterUITests;
 			sourceTree = "<group>";
 		};
 		1A5C2FCC30531D4934061D20 /* Pods */ = {
@@ -159,7 +162,6 @@
 				0F26AC6617A1A8D07F5746A4 /* Pods-CodePathiOSClassAssignment1Tests.debug.xcconfig */,
 				E86A735C57BB5358CF9E5042 /* Pods-CodePathiOSClassAssignment1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -260,7 +262,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0BCDA43827CC4EE30076A987 /* Build configuration list for PBXProject "CodePathiOSClassAssignment1" */;
+			buildConfigurationList = 0BCDA43827CC4EE30076A987 /* Build configuration list for PBXProject "CodePathiOSClassFlixster" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -418,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B81206227D46BEA0095D5DF /* MovieDetailsViewController.swift in Sources */,
 				0BCDA44527CC4EE30076A987 /* MoviesViewController.swift in Sources */,
 				0BCDA44127CC4EE30076A987 /* AppDelegate.swift in Sources */,
 				0BCDA47727CC9DC10076A987 /* MovieCell.swift in Sources */,
@@ -429,7 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCDA45827CC4EE70076A987 /* CodePathiOSClassAssignment1Tests.swift in Sources */,
+				0BCDA45827CC4EE70076A987 /* CodePathiOSClassFlixsterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,7 +737,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BCDA43827CC4EE30076A987 /* Build configuration list for PBXProject "CodePathiOSClassAssignment1" */ = {
+		0BCDA43827CC4EE30076A987 /* Build configuration list for PBXProject "CodePathiOSClassFlixster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BCDA46527CC4EE70076A987 /* Debug */,
